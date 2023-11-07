@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Mono
+comment0.text=\n\ Write\ a\ description\ of\ class\ Monomial\ here.\n\n\ @author\ Rommel\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=coef\ exp
+comment1.target=Mono(double,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Monomial\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AMyCollectionTest
+comment0.text=\n\ A\ class\ with\ unit\ tests\ for\ a\ MyCollection\ collection\ implementation.\n\ It\ is\ abstract,\ thus\ designed\ to\ be\ extended\ for\ testing\ concrete\ implementations.\n\ For\ that,\ subclasses\ need\ only\ override\ the\ createEmptyLongCollection()\ method.\n\n\ The\ tests\ try\ to\ test\ all\ methods\ and\ corner\ cases.\n\ \n\ @author\ \ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=MyCollection\ createEmptyLongCollection()
+comment1.text=\n\ A\ factory\ method\ to\ create\ an\ empty\ collection\ of\ longs\ using\ the\ MyCollection\ \n\ implementation\ we're\ trying\ to\ test.\n\ It\ is\ to\ be\ overridden\ by\ concrete\ subclasses\ of\ this\ class.\n\ \n\ @return\ an\ empty\ collection\ of\ long\ integers.\n
+comment2.params=
+comment2.target=void\ testCollection1AddAndSize()
+comment2.text=\n\ Tests\ whether\ adding\ nodes\ to\ the\ collection\ is\ reflected\ on\ its\ size.\n
+comment3.params=
+comment3.target=void\ testCollection2AddAndContains()
+comment3.text=\n\ Tests\ whether\ adding\ nodes\ to\ the\ collection\ then\ means\ the\ collection\ contains\ them.\n
+comment4.params=
+comment4.target=void\ testCollection3AddAndRemove()
+comment4.text=\n\ Tests\ whether\ adding\ nodes\ to\ the\ set\ then\ means\ the\ set\ contains\ them.\n\ Assumes\ the\ following\ operations\ work\ correctly\:\ size(),\ contains().\n
+comment5.params=list\ n
+comment5.target=void\ addNints(MyCollection,\ int)
+comment5.text=\n\ A\ helper\ to\ avoid\ code\ duplication.\ Appends\ integers\ 0\ through\ n-1\ to\ list.\n\ \n\ @param\ list\ the\ list\ to\ append\ to.\n\ @param\ n\ the\ number\ of\ integers\ to\ append.\n
+comment6.params=
+comment6.target=void\ testCollection4Iterator()
+comment6.text=\n\ Tests\ whether\ iterating\ over\ the\ collection\ returns\ each\ element\ exactly\ once.\n
+numComments=7

@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=PolyTest
+comment0.text=\n\ A\ class\ with\ unit\ tests\ for\ the\ Poly\ polynomial\ class.\n\ \n\ We\ recommend\ you\ tackle\ them\ (i.e.\ try\ to\ make\ them\ pass)\ in\ the\ \n\ order\ they\ appear\ in\ this\ file.\n\n\ @author\ \ Anna\ Gommerstadt\ &\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ test1ConsAndEquals()
+comment1.text=\n\ Tests\ creation\ and\ equality\ testing\ of\ single-term\ polynomials.\n
+comment10.params=
+comment10.target=void\ test2OriginalMultDiv()
+comment10.text=\n\ Tests\ polynomial's\ multiply\ and\ divide\ methods\ cancel\ each\ other\ out\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ multiply(),\ divide().\n
+comment11.params=
+comment11.target=void\ test5MultDivAddSub()
+comment11.text=\n\ Tests\ all\ polynomial's\ main\ methods\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ multiply(),\ divide(),\ add(),\ subtract().\n
+comment2.params=
+comment2.target=void\ test2AddAndSub()
+comment2.text=\n\ Tests\ polynomial\ addition\ and\ subtraction.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals().\n
+comment3.params=
+comment3.target=void\ test3Mul()
+comment3.text=\n\ Tests\ polynomial\ multiplication.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals(),\ add().\ \n
+comment4.params=
+comment4.target=void\ test5MulDiv()
+comment4.text=\n\ Tests\ polynomial\ division.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ equals(),\ add(),\ multiply().\n
+comment5.params=polyStr\ p
+comment5.target=void\ testToStringHelper(java.lang.String,\ Poly)
+comment5.text=\n\ A\ helper\ method\ to\ check\ wheter\ a\ polynomial's\ toString()\ returns\ a\ string\n\ in\ the\ correct\ format.\n\ \n\ @param\ polyStr\ the\ string\ that\ should\ be\ returned\ by\ polynomial\ toString().\n\ @param\ p\ the\ polynomial\ to\ be\ tested.\n\ @return\ an\ error\ message.\n
+comment6.params=
+comment6.target=void\ test5ToString()
+comment6.text=\n\ Tests\ polynomial\ toString().\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ add().\n
+comment7.params=
+comment7.target=void\ test4AddMultDiv()
+comment7.text=\n\ Tests\ polynomial's\ Add,\ Multiply,\ Division.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ add(),\ multiply(),\ division().\n
+comment8.params=
+comment8.target=void\ testAddto10000()
+comment8.text=\n\ Tests\ polynomial's\ add()\ and\ checks\ if\ the\ final\ size\ of\ poly\ \=\ 10000.\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ add().\n
+comment9.params=
+comment9.target=void\ test2OriginalAddSub()
+comment9.text=\n\ Tests\ polynomial's\ Add\ and\ Subtract\ methods\ can\ cancel\ it\ out\n\ Assumes\ the\ following\ methods\ are\ correct\:\ constructor,\ add(),\ subtract().\n
+numComments=12

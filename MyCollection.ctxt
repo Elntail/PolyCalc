@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MyCollection
+comment0.text=\n\ An\ interface\ specifying\ the\ operations\ that\ should\ be\ supported\n\ by\ a\ variable-size\ collection\ abstract\ data\ type.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.1\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\n\ Returns\ the\ number\ of\ elements\ currently\ in\ the\ collection.\n\n\ @return\ the\ number\ of\ elements\ in\ the\ collection.\n
+comment2.params=elem
+comment2.target=boolean\ add(java.lang.Object)
+comment2.text=\n\ Adds\ an\ element\ to\ the\ collection.\n\n\ @param\ elem\ the\ element\ to\ be\ added.\n\ @return\ true\ if\ the\ collection\ changed\ as\ a\ result\ of\ this\ addition;\ \n\ false\ otherwise.\n
+comment3.params=elem
+comment3.target=boolean\ remove(java.lang.Object)
+comment3.text=\n\ Removes\ an\ element\ from\ the\ collection.\n\n\ @param\ elem\ the\ element\ to\ be\ removed\ from\ the\ collection.\n\ @return\ true\ if\ the\ collection\ changed\ as\ a\ result\ of\ this\ addition;\ \n\ false\ otherwise.\n
+comment4.params=elem
+comment4.target=boolean\ contains(java.lang.Object)
+comment4.text=\n\ Checks\ whether\ the\ element\ passed\ as\ an\ argument\ is\ present\ in\ the\ collection.\n\n\ @param\ elem\ the\ element\ whose\ presence\ is\ to\ be\ tested.\n\ @return\ true\ if\ the\ element\ is\ present\ in\ the\ collection;\ false\ otherwise.\n
+numComments=5

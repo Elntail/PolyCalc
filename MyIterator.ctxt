@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyIterator
+comment0.text=\n\ An\ interface\ specifying\ the\ operations\ that\ should\ be\ supported\n\ by\ a\ MyCollection\ iterator.\n\n\ @author\ Rui\ Meireles\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\n\ Indicates\ whether\ there\ are\ any\ unvisited\ elements\ in\ the\n\ associated\ collection.\n\ \n\ @return\ true\ if\ there\ are\ unvisited\ elements,\ false\ otherwise.\n
+comment2.params=
+comment2.target=java.lang.Object\ next()
+comment2.text=\n\ Returns\ the\ next\ element\ to\ be\ visited\ in\ the\ associated\ collection.\n\ \n\ @return\ a\ previously\ unvisited\ element\ from\ the\ associated\ \n\ collection,\ or\ null\ if\ there\ are\ none.\ \n
+numComments=3
